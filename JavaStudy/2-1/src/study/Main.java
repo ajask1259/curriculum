@@ -14,8 +14,8 @@ public class Main {
 
      //① firstNameとlastNameという名前の変数を定義し、
      //   firstNameには自分の名前、lastNameには自分の名字で初期化しなさい
-	   String firstName = ("Shunya");
-	   String lastName = ("Arai");
+	   String firstName = "Shunya";
+	   String lastName = "Arai";
 
 
        //getName関数の呼び出しと出力
