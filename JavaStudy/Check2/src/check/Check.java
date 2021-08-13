@@ -5,7 +5,7 @@ import constants.Constants;
 public class Check {
 	
 	public static void main(String[] args) { 
-		System.out.println(printName);
+		printName(firstName, lastName);
 		
 		Pet pet = new Pet(Constants.CHECK_CLASS_JAVA, Constants.CHECK_CLASS_HOGE);
 		pet.introduce();
@@ -17,7 +17,9 @@ public class Check {
 	private static String firstName = "Arai";
 	private static String lastName = "Shunya";
 	
-	private static String printName = "printNameメソッド → " + firstName + lastName;
+	private static void printName(String a,String b) {
+		System.out.println("printNameメソッド → " + a + b);
+	}
 	
 	
 	
