@@ -30,7 +30,7 @@ public class Study {
         
         // ② 以下の「shopMap.put(shohinList.get(1), 180);」の処理について、コメントを記述してください。
         /*
-         * getメソットでキー1を指定して値を180と設定
+         * shohinListの2番目をgetメソッドで取り出したものをキーに、値に180をputメソッドでshopMapに設定している
          *
          */
         LinkedHashMap<String, Integer> shopMap = new LinkedHashMap<String, Integer>();
