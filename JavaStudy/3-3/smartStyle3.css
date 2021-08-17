@@ -1,0 +1,133 @@
+/*ウィンドウ幅が最大479pxまでの場合に適用(スマホ用)*/
+@media screen and (max-width: 479px) {
+
+    body {
+        min-height: 100%; 
+        height: 100%;
+    }
+    
+    .clearfix::after { 
+        content: '';
+        display: block; 
+        clear: both;
+    }
+    
+    .white {
+        background-color: #fff;
+    }
+    
+    .red {
+        background-color: #a9004d;
+    }
+    
+    .orange {
+        background-color: #ff863f;
+    }
+    
+    .header {
+        width: 200px;
+        height: 200px;
+        background-color: #141f40;
+    }
+    
+    .header-right {
+        float: right;
+        width: 60px; 
+        height: 160px;
+        margin-top: 20px;
+        margin-right: 70px;
+    }
+    .header-right-left {
+        float: left;
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .header-right-center {
+        float: left;
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    .header-right-right {
+        float: left;
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    /* .main { 
+        width: 400px;
+        height: 100px;
+        background-color:blue;
+    } */
+    .left {
+        width: 200px;
+        height: 100px;
+        background-color: #80bfa8;
+        float: none;
+    }
+    .right {
+        width: 200px;
+        height: 210px;
+        background-color: #8c2727;
+        float: left;
+    }
+    
+    .right-upper {
+        width: 150px; 
+        height: 50px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    
+    .right-upper-in {
+        float:left;
+        width: 140px; 
+        height: 40px;
+        margin:  5px;
+    }
+    
+    .right-center {
+        width: 150px; 
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .right-center-in {
+        float:left;
+        width: 140px; 
+        height: 40px;
+        margin:  5px;
+    }
+    
+    .right-under {
+        width: 150px; 
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    
+    .right-under-in {
+        float:left;
+        width: 140px; 
+        height: 40px;
+        margin:  5px;
+    }
+    
+    .footer {
+        width: 200px;
+        height: 100px;
+        background-color: #d98d30;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+}
