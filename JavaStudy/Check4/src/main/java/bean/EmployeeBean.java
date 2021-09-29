@@ -5,7 +5,7 @@ package bean;
 public class EmployeeBean {
     private String Id;
     private String PassWord;
-    private String Name;
+    public String Name;
     private String Comment;
     private String Login_Time;
     public void setId(String Id) {
